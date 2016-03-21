@@ -1,13 +1,16 @@
-debian-testing-setup
 
 
-ssh-keygen -t rsa -b 4096 -C "dafoxzero@gmail.com"
+# Basic Installation and Configuration of Dev Tools On Debian Testing
 
-ssh-add ~/.ssh/id_rsa
+###Install sudo and add user to sudoers
 
-sudo apt install xclip
+###Install curl, unzip, 
 
-xclip -sel clip < ~/.ssh/id_rsa.pub
+###Install anc configure Git
 
-@ paste on https://github.com/settings/ssh
+###Generate and add ssh key to Github
+
+###Install oh-my-zsh
+
+
 
