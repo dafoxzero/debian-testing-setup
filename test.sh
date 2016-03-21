@@ -26,7 +26,7 @@ sudo apt install -y git
 
 git config --global user.email "<email>"
 git config --global user.name <name>
-
+git config --global push.default simple
 sudo apt install git-flow  #(optional)
 
 #---------------------------------
@@ -110,3 +110,4 @@ curl https://install.meteor.com/ | sh
 # MongoDB
 # Rethink
 # Neovim
+# Unity3D
