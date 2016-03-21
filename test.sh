@@ -70,19 +70,13 @@ sudo ln -s /opt/vscode/code /usr/bin/code
 #---------------------------------
 # android studio
 #---------------------------------
-<<<<<<< HEAD
 wget -O tmp-androi-studio.zip https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip
 unzip tmp-android-studio.zip -d tmp-android-studio
 sudo cp -nR tmp-android-studio /opt/
 sudo ln -s /opt/tmp-addroid/bin/ /usr/bin/android-studio
-=======
-echo "Install Elixir: [y/n]"
-mustbeinstall
-retval=$?
-if [ "$retval" == 0 ]
-	apt install elixir
-then 
->>>>>>> 18d26bcd60e14809188440c46836b3099d7c64e3
+sudo apt-get install lib32z1 lib32stdc++6
+
+
 
 #--------------------------------
 # oracle java
@@ -107,3 +101,12 @@ sudo apt install -y nodejs
 # Meteor
 #---------------------------------
 curl https://install.meteor.com/ | sh
+
+
+# Swift
+# Rust
+# Haxe
+# Postgresql
+# MongoDB
+# Rethink
+# Neovim
