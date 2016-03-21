@@ -110,7 +110,7 @@ then
 #---------------------------------
 #Elixir
 #---------------------------------
-echo "Install Golang: [y/n]"
+echo "Install Elixir: [y/n]"
 mustbeinstall
 retval=$?
 if [ "$retval" == 0 ]
