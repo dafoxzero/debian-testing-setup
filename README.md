@@ -18,15 +18,11 @@
 
 ##Code Editors
 
-hr
-
 ### Sublime Text 3
 
 ### VS Code
 
 ### Android Studio
-
-hr
 
 ### Oracle Java
 
